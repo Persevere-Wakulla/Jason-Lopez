@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding-left: 50px;
+    /* background-color: rgb(199, 193, 198); */
+    width: 50vw;
+    margin: 80px;
+    /* background-image: url(./pngtree-metal-stars-of-david-on-wooden-table-picture-image_2776874.png); */
+  
+}
+
+main {
+    
+}
+
+.head {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 10px;
+ }  
+
+.signup{
+    display: grid;
+    color: rgb(122, 120, 120);
+}
+
+form{
+    background-color: burlywood;
+    height: 550px;
+    box-shadow: inset 5px 5px 3px rgb(82, 48, 14), 4px 3px 3px white ;
+    border-radius: 5px;
+    border:  1px solid brown;
+}
+
+.container {
+    margin-top: 20px;
+    
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    
+}
+
+.btn:hover {
+    background-color: rgb(142, 127, 209);
+ 
+}
+.btn {
+    background-color: rgb(83, 134, 181);
+    color: rgb(224, 224, 224);
+    border-radius: 10px;
+    border-style: none;
+    padding: 6px;
+   
+
+}
+
+
+.anchor:hover {
+    background-color: rgb(22, 22, 126);
+    border-radius: 70% 30% 70% 30%;
+    box-shadow: 0 2px 40px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.512);
+    scale: 1.5;
+    color: rgb(102, 236, 98);
+}
+.anchor{
+transition-duration: 1s;
+    color: rgb(137, 128, 184);
+    position: absolute;
+    top: 4%;
+    right: 20%;
+    background-color: blanchedalmond;
+    padding: 5PX;
+    text-decoration: none;
+    /* scale: 1; */
+}
+
+.btns {
+display: flex;
+gap: 40px;
+
+
+}
+
+.space {
+    margin-bottom: 20px;
+    padding-top: 10px;
+    width: min-content;
+    font-size: 15px;
+    border-color: rgb(147, 147, 185);
+    background-color: rgb(65, 44, 29);
+    color: blanchedalmond;
+
+}
+ footer{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 20px;
+
+ }

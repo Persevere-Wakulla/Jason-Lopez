@@ -1,0 +1,729 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "Boullervard";
+  src: url(./fonts/fonts/BoullervarD/3d/extrude.otf);
+}
+
+@font-face {
+  font-family: "Cincoyo";
+  src: url(./fonts/fonts/Cincoyo.otf);
+}
+
+@font-face {
+  font-family: "Easterica Italica";
+  src: url(./fonts/fonts/EastericaItalic.otf);
+}
+
+@font-face {
+  font-family: "Twiggs";
+  src: url(./fonts/fonts/Twigs.otf);
+}
+
+a {
+  font-weight: 500;
+}
+
+body {
+  margin: 0;
+  background-color: rgb(0, 0, 0);
+}
+
+header {
+  position: sticky;
+}
+
+
+#background {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 180px;
+  left: -5px;
+  z-index: -1;
+  border: none;
+  pointer-events: none;
+}
+
+#grid {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 19vh 71vh 16vh;
+}
+
+main {
+  display: grid;
+  height: 68vh;
+  overflow-y: scroll;
+  position: relative;
+  z-index: 2;
+}
+
+main::-webkit-scrollbar {
+  background-color: transparent;
+}
+
+#heading {
+  font-family: "Twiggs";
+}
+
+.logout-btn {
+  color: rgb(81, 98, 190);
+  position: relative;
+  bottom: 0rem;
+  font-size: 16px;
+  /* right: 35rem; */
+}
+
+.logout-btn:hover {
+  text-decoration: underline;
+  color: rgb(62, 92, 201);
+  transform: scale(1.1);
+}
+
+h1 {
+  /* color: #1d180b; */
+}
+
+/* homepage */
+.img-beast {
+  position: relative;
+  z-index: 2;
+  bottom: 4em;
+  height: 30px;
+}
+
+.card2 {
+  background-color: #ddb70f58;
+  color: #6a81bb;
+}
+.yahusha-img {
+  position: relative;
+  left: 10em;
+}
+
+#head {
+  color: burlywood;
+}
+
+.img-2 {
+  height: 200px;
+}
+
+Button {
+  font-size: 20px;
+  border-style: none;
+  font-family: "Cincoyo";
+  color: saddlebrown;
+}
+
+Button:hover {
+  color: rgb(169, 114, 27);
+}
+
+.home-footer {
+  background-image: url(/woodscroll2.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 630px;
+  width: 800px;
+  position: relative;
+  bottom: 8px;
+}
+
+#demo {
+  color: rgb(125, 116, 40);
+  font-size: 12.4px;
+  font-family: "Easterica Italica";
+  max-width: 74%;
+  max-height: 50%;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.typing-container {
+  position: relative;
+  top: 8.3em;
+  left: 6.5em;
+}
+
+.h2-text {
+  color: rgb(234, 199, 165);
+  font-family: "Boullervard";
+}
+
+.img-slide {
+  height: 355px;
+}
+
+/* signup page */
+.form-container {
+  border: 2px solid white;
+  width: 89%;
+  height: 40em;
+  position: relative;
+  left: 10em;
+  top: 2em;
+  background-image: url(./assets/pexels-gdtography-950241.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  box-shadow: 5px 5px 9px rgb(151, 195, 248);
+  border-radius: 50px 10px 500px 10px;
+  margin-top: 7em;
+  color: aliceblue;
+  z-index: 2;
+  background-color: #1300e668;
+}
+
+.back-button:hover {
+  transform: scale(1.1);
+}
+
+/* newsletter */
+.sub-text {
+  font-size: 20px;
+}
+
+.card {
+  width: 50%;
+  background-color: #7c79a0a3;
+  font-size: 20px;
+  font-family: "Boullervard";
+  max-height: 87%;
+  margin-top: 2.5em;
+}
+
+/* form / login  */
+.scrip-container {
+  color: #81d0db;
+  position: relative;
+  z-index: 2;
+  bottom: -41em;
+  letter-spacing: 2px;
+  font-family: "Boullervard";
+}
+
+.glow-2 {
+  font-size: 2em;
+  /* color: rgba(28, 162, 215, 0.468); */
+  animation: glow 1s ease-in-out infinite alternate;
+  position: relative;
+  z-index: 1;
+  top: -.5rem;
+  font-family: "Boullervard";
+  letter-spacing: 14px;
+}
+
+.form-login {
+  width: 35%;
+  border: 1px solid grey;
+  background-color: #b7a4cb61;
+  padding: 2em;
+  border-radius: 0px 60px 0px 60px;
+  position: absolute;
+  top: 20em;
+  left: 40em;
+  color: rgb(255, 243, 9);
+  box-shadow: 3px 3px 5px;
+  z-index: 2;
+}
+
+form {
+  border: 3px solid #f1f1f1;
+  font-family: "Boullervard";
+  src: url(./fonts/fonts/BoullervarD/3d/extrude.otf);
+  position: relative;
+  border-radius: 10px;
+}
+
+.container {
+  padding: 49px;
+  background-color: #d0c9b0b1;
+  position: inherit;
+}
+
+.box-container {
+  border: 2px solid rgb(255, 255, 255);
+}
+
+input[type=text],
+input[type=submit] {
+  width: 100%;
+  padding: 12px;
+  margin: 5px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+input[type=checkbox] {
+  margin-top: 16px;
+}
+
+input[type=submit] {
+  background-color: #6a81bb;
+  color: white;
+  border: none;
+  border-radius: 20px;
+}
+
+input[type=submit]:hover {
+  opacity: .7;
+}
+
+/* resource */
+.bg-color {
+  background-color: #8294c295;
+}
+
+/* tenets page */
+.tenets-container {
+  width: 900px;
+  color: rgb(255, 255, 255);
+  position: relative;
+  top: 2em;
+  left: 22em;
+  font-size: 15px;
+  font-family: "Boullervard";
+  font-weight: 600;
+  padding: 1em;
+
+}
+
+.btn-group {
+  position: relative;
+  bottom: 25em;
+  display: flex;
+  justify-content: space-between;
+  gap: 20vw;
+}
+
+.btns {
+  font-size: 4em;
+  color: rgb(226, 229, 135);
+  border-style: none;
+}
+
+.btns:hover {
+  color: #3ef9007e;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.scroll {
+  width: 80vw;
+  height: 78vh;
+  background: url('/Document77.png') top center no-repeat;
+  background-size: 80% 89%;
+  position: relative;
+  left: 12em;
+  opacity: 0.8;
+}
+
+/* tribes */
+.tribes-container {
+  padding: .5rem;
+  background-color: rgba(213, 192, 192, 0.328);
+  width: 70%;
+  color: #ced4e1;
+  font-size: 20px;
+  display: grid;
+
+}
+
+.text {
+  color: #ddd60f;
+  font-family: "Twiggs";
+}
+
+/* homepage footer */
+footer {
+  display: grid;
+  height: 12.9vh;
+  margin-top: 10px;
+}
+
+.copywrite,
+.socialLinks {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  gap: 3%;
+  position: relative;
+  z-index: 2;
+  color: white;
+}
+
+
+svg {
+  height: 20px;
+  width: 30px;
+  transition: .5s;
+}
+
+svg:hover {
+  transform: translateY(-3px);
+  color: rgb(0, 183, 255);
+}
+
+.foot-img {
+  height: 20%;
+  position: fixed;
+  z-index: 1;
+  right: 1em;
+  bottom: 0em;
+  animation: spin 10s linear infinite forwards;
+}
+
+.signup-foot {
+  height: 150px;
+  position: relative;
+}
+
+/* animations */
+.img-menorah {
+  /* animation: spin 10s linear infinite forwards; */
+  position: relative;
+  bottom: -10em;
+  z-index: 2;
+}
+
+.glow {
+  font-size: 5em;
+  color: rgba(227, 165, 20, 0.957);
+  text-align: center;
+  animation: glow 1s ease-in-out infinite alternate;
+  position: relative;
+  z-index: 1;
+  top: -.5rem;
+}
+
+.nav-link {
+  padding: .5rem;
+  font-size: 20px;
+  border: 2px solid rgb(239, 198, 128);
+  border-radius: 10px;
+}
+
+.nav-link-bg {
+  padding: .5rem;
+  font-size: large;
+  border: 2px solid rgb(120, 93, 45);
+  background-color: #c3c19ad6;
+  border-radius: 10px;
+  /* position: relative; */
+  top: 2em;
+  position: sticky;
+}
+
+.nav-link:hover {
+  background-color: #5e5146a3;
+}
+
+nav * {
+  margin: 0 auto !important;
+}
+
+.navbar-toggler {
+  position: relative;
+  z-index: 2;
+}
+
+/* contact page */
+.opacity {
+  background-color: #4dc1ff5a;
+  position: relative;
+  left: 10em;
+}
+
+.form-floating {
+background-color: rgba(255, 255, 255, 0.588);
+}
+
+.z-index {
+  background-color: #ffffff;
+  position: relative;
+  z-index: 2;
+}
+
+@keyframes spin {
+  from {
+    transform: rotateY(0deg);
+  }
+
+  50% {
+    transform: rotateY(360deg);
+  }
+
+  to {
+    transform: rotateY(0deg);
+  }
+}
+
+/* For Header */
+@keyframes glow {
+  from {
+    text-shadow: 0 0 20px #e5e9de, 0 20px 30px #fff, 10px 20px 20px #1300e6, 0 0 30px #e60073, 0 40px 40px #e60073, 0 15px 20px #e60073, 0 10px 20px #e60073;
+  }
+
+  to {
+    text-shadow: -10px -10px 20px #ddd60f, 0 20px 15px #ff4da6, 0 0 20px #1a020e, 0 0 0px #281abe, 0 10px 40px #6a1c95, 0 0 10px #ff4da6, 0 10px 20px #ff4da6;
+  }
+}
+
+/* For login page scripture*/
+@keyframes glow-scrip {
+  from {
+    text-shadow: 0 0 20px #e5e9de, 0 40px 50px #fff, 10px 30px 30px #1300e6, 0 0 30px #e60073, 0 40px 40px #e60073, 0 30px 40px #e60073, 0 20px 40px #e60073;
+  }
+
+  to {
+    text-shadow: -10px -10px 20px #111006, 0 40px 30px #4dc1ff, 0 0 40px #1a020e, 0 0 0px #281abe, 0 10px 40px #6a1c95, 0 0 10px #d298b5, 0 10px 10px #ff4da6;
+  }
+}
+
+@media (max-width: 1266px) {
+  div.tenets-container {
+    font-size: 16px;
+    width: 60%;
+  }
+
+  a.nav-link {
+    position: relative;
+    left: 4em;
+    background-color: #cbc67da3;
+    width: 100px;
+    border-radius: 10px;
+    border: 2px solid rgb(221, 207, 13);
+  }
+
+  .glow {
+    font-size: 73px;
+  }
+
+  .btns {
+    position: relative;
+    bottom: 5em;
+  }
+
+  /* .scroll {
+    position: relative;
+    bottom: 5em;
+    height: 100px;
+    margin-bottom: 1em;
+  } */
+
+  /* nav {
+    position: relative;
+    right: 20rem;
+  } */
+
+}
+
+@media (max-width: 800px) {
+  .scroll {
+   min-height: 1140px; 
+   min-width: 800px;
+   position: relative;
+   top: .1em;
+   left: 7em;
+  }
+#heading {
+
+}
+  main {
+    min-height: 1130px;
+  }
+  
+  body {
+    background-image: url(/earth/01_earthbump1k.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 1320px;
+  }
+
+  .navbar-nav {
+    /* position: absolute;  */
+     /* top:0;  */
+     /* z-index: 2; */
+  }
+  .foot-img {
+    /* display: none; */
+  }
+  .img-beast {
+  /* display: none; */
+}
+#background {
+  display: none;
+
+}
+  /* .slide-imgs {
+    position: relative;
+    top: 18em;
+    left: 4em;
+    min-width: 370px;
+  } */
+
+.nav-link {
+  font-size: 12px;
+  padding: px;
+  display: flex;
+  justify-content: space-around;
+}
+  div.tenets-container {
+    font-size: 14.4px;
+    width: 56%;
+    position: relative;
+    top: 2em;
+    left: 14em;
+    color: #463605;
+  }
+
+  .home-footer {
+    position: relative;
+    top: 5em;
+  }
+
+  .btns {
+    /* position: relative;
+    bottom: 5em;
+    color: beige; */
+  }
+
+  .main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  form {
+    /* min-width: 500px; */
+  }
+
+  .update {
+    /* min-width: 500px;
+    color: white;
+    position: relative;
+    left: 2.5em; */
+  }
+  
+}
+
+@media (max-width: 600px) {
+  div.tenets-container {
+    /* font-size: 10px; */
+    /* width: 58%; */
+    /* position: relative; */
+    /* top: 6.5em; */
+    /* left: 9em; */
+    /* color: rgb(108, 13, 223); */
+  }
+
+  .update {
+    /* min-height: 850px; */
+  }
+
+#background {
+  display: none;
+}
+body {
+  
+}
+  .navbar-toggler {
+    position: relative;
+    left: 8.2em;
+    background-color: rgba(255, 200, 0, 0.74);
+    margin-bottom: 5px;
+  }
+
+  a.nav-link {
+    position: relative;
+    left: 11em;
+    top: 1em;
+    background-color: #cbc67d4f;
+    width: 200px;
+    border-radius: 10px;
+    border: 2px solid rgba(135, 141, 28, 0.436);
+    font-size: 28px;
+  }
+
+  a.nav-link:hover {
+    background-color: #8b733ec9;
+    border: 2px solid rgb(140, 140, 76);
+  }
+
+  h3 {
+    font-size: large;
+  }
+
+  .btns {
+    background-color: #f2e98972;
+  }
+
+  .glow {
+    font-size: 40px;
+  }
+
+  .foot-img {
+    display: none;
+  }
+
+  .container-fluid {
+    /* font-size: 12px; */
+  }
+
+  .navbar {
+    /* margin: auto !important; */
+  }
+
+  h1 {
+    /* font-size: large; */
+  }
+
+  .scroll {
+    /* min-height: 870px; */
+    /* position: relative;
+    bottom: 5em; */
+  }
+
+  #demo {
+    /* font-size: 20px; */
+  }
+
+  body {
+    /* min-height: 2450px; */
+  }
+
+  .home-footer {
+    min-height: 1000px;
+  }
+
+  button {
+    position: relative;
+    top: 10px;
+  }
+
+  #demo {
+    /* position: relative;
+    top: 1.3em;
+    color: #060411;
+    font-size: 18.4px;
+    min-width: 400px;
+    letter-spacing: 2px; */
+  }
+
+  .slide-imgs {
+    min-width: 700px;
+  }
+
+  /* min-height: 500px; */
+  .img-slide {
+    min-height: 600px;
+  }
+}

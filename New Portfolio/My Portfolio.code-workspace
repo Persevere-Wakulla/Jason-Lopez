@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "Z:/Students/11 Lopez J/sunnyside-agency-landing-page-main"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "My Portfolio",
+		"liveServer.settings.port": 5501
+	}
+}

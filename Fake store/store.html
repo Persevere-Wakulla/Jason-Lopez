@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zakar's Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1 class="title">My First Store</h1>
+
+
+
+    <header class="flex">
+        <button id="logBtn" type="button">Login</button>
+        <div id="id01" class="modal">
+            <div class="modal-content animate">
+                <div class="imgcontainer">
+                    <span onclick="document.getElementById('id01').style.display='none'" class="close"
+                        title="Close Modal">&times;</span>
+                    <img src="./Screenshot 2024-02-16 134949.png" alt="Avatar" class="avatar">
+                </div>
+
+                <div class="container">
+                    <label for="uname"><b>Username</b></label>
+                    <input id="uname" type="text" placeholder="Enter Username" name="uname" required>
+
+                    <label for="psw"><b>Password</b></label>
+                    <input id="psw" type="password" placeholder="Enter Password" name="psw" required>
+
+                    <button id="submit-btn" type="button">Login</button>
+                    <label>
+                        <input type="checkbox" checked="checked" name="remember"> Remember me
+                    </label>
+                </div>
+
+                <div class="container">
+                    <button  type="button" onclick="document.getElementById('id01').style.display='none'"
+                        class="cancelbtn ">Cancel</button>
+                    <span class="psw">Forgot <a href="#">password?</a></span>
+                </div>
+            </div>
+            <!-- </form> -->
+        </div>
+        <div class="cart-container">
+            <div id="cartSlot">
+            </div>
+                <img id="myCart" class="img-cart" src="./icon-cart.svg" alt="Cart">
+            <h2 id="cart">Shopping Cart</h2>
+        </div>
+    </header>
+    <main>
+        <div>
+            <h3 id="products"> Products by categories...</h3>
+            <ul id="categories">
+                <li id="Electronics">Electronics</li>
+                <li id="jewelery">Jewelery</li>
+                <li id="men">Men's clothing</li>
+                <li id="woman">Women's clothing</li>
+                <li id="all">All</li>
+            </ul>
+        </div>
+        <div id="listing" class="details">
+            <!-- <h3 id="id">1</h3>
+            <h3 id="prices">9.99</h3>
+            <h3 id="description">shiny jewels</h3>
+            <h3 id="categories">jewlery</h3> -->
+        </div>
+
+
+    </main>
+
+    <script type="module" src="./fakestore.js"></script>
+</body>
+
+</html>

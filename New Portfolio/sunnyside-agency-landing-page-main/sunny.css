@@ -1,0 +1,163 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+header {
+    background-image: url('./images/desktop/image-header.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    min-height: 400px;
+    background-position: center;
+    text-align: center;
+}
+
+nav {
+
+    display: flex;
+    gap: 8px;
+    padding: 20px;
+    margin: 10px
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.card1 {
+    margin: 0 auto;
+    width: 400px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px
+}
+
+.left {
+    width: 50%;
+    max-width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.right {
+    width: 50%;
+    max-width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.right img {
+    max-width: 100%;
+}
+
+.left img {
+    max-width: 100%;
+}
+
+
+.btn {
+    border-style: none;
+    border-radius: 100px;
+    background-color: rgb(245, 245, 245);
+    padding: 3px;
+
+}
+
+.learn {
+    color: rgb(0, 0, 0);
+
+
+}
+.active {
+    color: rgb(157, 150, 150);
+}
+
+
+a.active:hover {
+    color: blue;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.cherry {
+    width: 400px;
+    text-align: center;
+    padding-top: 120px;
+}
+
+
+
+
+.article3 {
+    background-image: url('./images/desktop/image-graphic-design.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 400px;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.article4 {
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    text-align: center;
+    gap: 100px;
+
+}
+
+.orange {
+    background-image: url('./images/desktop/image-photography.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: black;
+    background-position: center;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.footer {
+    padding: 100px;
+    background-color: rgb(121, 234, 234);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex-direction: column;
+    color: rgb(47, 182, 177);
+}
+
+.list {
+    display: flex;
+    gap: 8px;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.flex-img {
+    width: 25%;
+}
+@media (max-width: 600px) 

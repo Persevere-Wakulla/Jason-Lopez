@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Interactive card details form</title>
+
+  <style>
+  </style>
+</head>
+
+<body>
+  <!-- CC Logo card images -->
+  <div class="grid-container">
+    <div class="container">
+      <div class="card">
+        <img class="logo" src="./images/card-logo.svg" alt="card-logo">
+        <img class="card-front" src="./images/bg-card-front.png" alt="bg-card-front">
+        <span class="card-name"> Jane Appleseed</span>
+        <span class="card-cvc">00/00</span>
+        <span class="card-number ">0000 0000 0000 0000</span>
+      </div>
+      <div class="back_card_img">
+        <img class="card-back" src="./images/bg-card-back.png" alt="bg-card-back">
+        <span class="card-zero"> 000 </span>
+      </div>
+    </div>
+    <!-- Credit card form -->
+      <div class="form">
+        <form action="/action_page.php">
+          <label for="cname">Cardholder Name:</label><br>
+          <input class="grey height" type="text" name="cname" value="e.g. Jane Appleseed"><br><br>
+          <label for="cardnumber">Card Number:</label><br>
+          <input class="grey height" type="text" value="e.g. 1234 5678 9123 0000" placeholder="e.g. 1234 5678 9123 0000"><br><br>
+          <label for="info">Exp. Date:(MM/YY) </label>
+          <input class="grey size" type="text" id="mm" value="MM">
+          <input class="grey size" type="text" value="YY" placeholder="YY">
+          <label for="cvc" type="number" name="cvc" value="cvc"></label>
+          <input class="grey cvc" type="text" value="e.g. 123" id="CVC">
+          <div>
+          </div>
+          <button id="btn">Confirm</button>
+        </form>
+      </div>
+  </div>
+  <!-- Thank you!
+  We've added your card details
+  Continue -->
+</body>
+
+</html>

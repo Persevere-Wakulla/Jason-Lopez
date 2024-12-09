@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <!-- <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png"> -->
+
+  <title>Frontend Mentor | E-commerce product page</title>
+  <link rel="stylesheet" href="./style.css">
+
+
+</head>
+
+<body>
+  <nav class="nav-bar flex">
+    <div class="flex">
+      <div>
+        <img class="logo" src="./images/logo.svg" alt="logo">
+      </div>
+    </div>
+
+    <ul class="links flex">
+      <li><a href="#collections">Collections</a></li>
+      <li><a href="#men">Men</a></li>
+      <li><a href="#women">Women</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="icon-cont">
+      <div>
+        <img id="icon-cart" src="./images/icon-cart.svg" alt="icon-cart">
+      </div>
+      <div>
+        <img class="image-avatar" src="./images/image-avatar.png" alt="image-avatar">
+      </div>
+    </div>
+  </nav>
+
+  <main class="flex">
+    <section>
+      <div class="flex column margin-left">
+        <div>
+          <img class="image-product" src="./images/image-product-1.jpg" alt="">
+        </div>
+        <div class="slides">
+          <img src="./images/image-product-2.jpg" alt="">
+        </div>
+        <div class="slides">
+          <img src="./images/image-product-3.jpg" alt="">
+        </div>
+        <div class="slides">
+          <img src="./images/image-product-4.jpg" alt="">
+        </div>
+
+        <div class="flex-pics">
+          <div>
+            <img class="images" id="img-1" src="./images/image-product-1-thumbnail.jpg" alt="">
+          </div>
+          <div>
+            <img class="images" id="img-2" src="./images/image-product-2-thumbnail.jpg" alt="">
+          </div>
+          <div>
+            <img class="images" id="img-3" src="./images/image-product-3-thumbnail.jpg" alt="">
+          </div>
+          <div>
+            <img class="images" id="img-4" src="./images/image-product-4-thumbnail.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <article>
+      <div class="article">
+        <h4>Sneaker Company</h4>
+        <h1>Fall Limited Edition Sneakers</h1>
+        <p>These low-profile sneakers are your perfect casual wear companion. Featuring a
+          durable rubber outer sole, they’ll withstand everything the weather can offer.</p>
+
+        <div class="price">
+          <h1>
+            $125.00
+          </h1>
+          <p id="percentage">
+            50%
+          </p>
+        </div>
+        <p class="line-through">
+          $250.00
+        </p>
+        <div class="flex gap">
+          <div class="flex gap background">
+            <img class="minus btn" src="./images/icon-minus.svg" alt="">
+            <span id="num">0</span>
+            <img class="plus btn" src="./images/icon-plus.svg" alt="">
+          </div>
+          <button id="btn">Add to cart</button>
+        </div>
+      </div>
+    </article>
+  </main>
+
+
+  </div>
+
+<script src="shoes"></script>
+</body>
+
+</html>

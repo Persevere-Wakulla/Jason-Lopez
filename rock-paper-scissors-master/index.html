@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="stylesheet" href="style.css">
+  <title>Rock, Paper, Scissors</title>
+</head>
+
+<body id="body">
+  <!-- Heading and Score  -->
+  <header id="head">
+    <div class="flex">
+      <img src="./images/logo.svg" alt="logo">
+    </div>
+    <div id="score">
+      <div >SCORE</div>
+      <div id="scoreboard" class="num">0</div>
+    </div>
+  </header>
+  <div>
+  </div>
+  <div id="gameC" class="game-container">
+    <!-- Rock paper scissors triangle images -->
+    <div id="game2" class="game2">
+      <div id="triangle"><img src="./images/bg-triangle.svg" alt="bg-triangle"></div>
+      <div><img id="rock" src="./images/icon-rock.svg" alt="icon-rock"></div>
+      <div><img id="paper" src="./images/icon-paper.svg" alt="icon-paper"></div>
+      <div><img id="scissors" src="./images/icon-scissors.svg" alt="icon-scissors"></div>
+    </div>
+  </div>
+<div id="result"></div>
+
+  <div>
+    <!--  Reset button for play again-->
+    <button id="reset">Play Again</button>
+  </div>
+  <!-- Button for rules -->
+  <button id="btn" class="btn">Rules</button>
+  <script src="./game.js"></script>
+
+</body>
+
+</html>

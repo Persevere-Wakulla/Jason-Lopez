@@ -1,0 +1,318 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+:root {
+    color: rgb(156, 12, 228);
+    color: rgb(170, 161, 161);
+}
+
+body {
+    /* opacity: 4; */
+    height: 2000px;
+    background-image: url(./BlueMenorah2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+ background-size: 100vh;
+
+}
+
+header {
+    
+    height: 100vh;
+    width: 100vw;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+form {
+    color: rgb(204, 161, 134);
+    font-size: 20px;
+
+}
+
+input {
+    background-color: blanchedalmond;
+    border-color: #dde848;
+    font-size: 15px;
+    color: grey;
+    height: 30px;
+}
+
+.glow {
+    padding-top: em;
+
+}
+
+.verse {
+    color: rgba(14, 12, 8, 0.631);
+    font-style: italic;
+    font-weight: 600;
+    font-size: 25px;
+    text-align: center;
+    padding: 40px;
+    /* background-color: #888; */
+
+}
+
+h1 {
+    color: rgba(212, 196, 221, 0.664);
+    text-align: center;
+
+}
+
+
+.btns,
+.dropbtn {
+    border-radius: 10px;
+    background-color: rgb(186, 186, 198);
+    color: rgb(224, 58, 43);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-style: none;
+    text-align: center;
+    padding: 10px 20px;
+
+}
+
+
+.btns:hover {
+    background-color: #c5aeae;
+    transform: scale(1.2);
+
+}
+
+.member {
+    color: #dde848;
+    margin-top: 10px;
+}
+
+.dropdown-content {
+    display: none;
+    background-color: rgb(57, 172, 233);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    padding: 4px;
+    text-decoration: none;
+    display: block;
+    background-image: url(./203512764-nomad-with-their-flock-of-sheep-traveling-across-the-mountains-created-with-generative-ai.jpg);
+}
+
+.dropdown-content {
+    background-color: #c5aeae;
+    border-radius: 10px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    border-radius: 10px;
+    background-color: rgb(186, 186, 198);
+    color: rgb(224, 58, 43);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-style: none;
+
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 10%));
+    justify-content: space-around;
+    align-items: center;
+    min-height: 90px;
+    /* margin-top: 90px; */
+    background-color: rgba(175, 140, 26, 0.332);
+}
+
+
+a:hover {
+    font-size: 25px;
+
+
+}
+
+.submit {
+    background-color: #f1047bab;
+    color: rgb(192, 189, 32);
+    border-radius: 10px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-style: none;
+    width: 80px;
+    padding-left: 2px;
+    height: 30px;
+    display: block;
+}
+
+.signup {
+    color: gold;
+}
+
+.submit:hover {
+    transform: scale(1.1);
+    background-color: #ff4da6;
+    color: chartreuse;
+    cursor: pointer;
+}
+
+.form-adjustments {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    margin-bottom: 10px;
+}
+
+h3 {
+    color: #dde848;
+    font-size: 26px;
+}
+
+.img-container {
+    position: relative;
+}
+
+.star {
+    width: 25%;
+    position: absolute;
+    top: 17em;
+    right: 40em;
+
+}
+
+
+/* Slideshow container */
+.slideshow-container {
+    position: relative;
+    /* background: #c60f0ff1; */
+    background-image: url(./203512764-nomad-with-their-flock-of-sheep-traveling-across-the-mountains-created-with-generative-ai.jpg);
+    height: 19%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100vw;
+    margin-top: 400px;
+
+}
+
+/* Slides */
+.mySlides {
+    display: none;
+    padding: 80px;
+    text-align: center;
+    font-size: 25px;
+    color: #dde848;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -30px;
+    padding: 16px;
+    color: #888;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    position: absolute;
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+    text-align: center;
+    padding: 20px;
+    background: #ddd;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active,
+.dot:hover {
+    background-color: #717171;
+}
+
+/* Add an italic font style to all quotes */
+q {
+    font-style: italic;
+}
+
+/* animation */
+.glow {
+
+    font-size: 80px;
+    color: #dde848;
+    text-align: center;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #1300e6, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+
+    to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #1a020e, 0 0 50px #281abe, 0 0 60px #6a1c95, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+
+}
+
+
+
+
+@media (max-width: 720px) {
+    .glow {
+        font-size: 25px;
+    }
+
+    footer {
+        display: grid;
+        justify-content: center;
+    }
+
+    .verse {
+        font-size: 17px;
+
+    }
+
+    .header {
+        background-size: 50%;
+    }
+
+    .mySlides {
+        font-size: 11.5px;
+
+    }
+}

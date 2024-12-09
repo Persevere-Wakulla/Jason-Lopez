@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+
+
+}
+
+:root {
+    White: hsl(0, 0%, 100%) Rose White: hsl(330, 100%, 98%) Eggshell: hsl(30, 54%, 90%) Light Grey: hsl(30, 18%, 87%) Wenge Brown: hsl(30, 10%, 34%) Dark Charcoal: hsl(24, 5%, 18%)
+}
+
+body {
+    max-width: 1400px;
+    margin: 0 auto;
+    font-size: 24px;
+    padding: 30px;
+    background-color: rgb(159, 138, 110);
+
+}
+
+.imgcont {
+    width: 100%;
+    height: 50%;
+
+}
+
+img {
+    width: 100%;
+
+}
+
+h1 {
+    margin-left: 20px;
+    font-size: 60px;
+
+}
+
+h2 {
+    color: hsl(14, 45%, 36%);
+    margin-top: 40px;
+}
+
+h3 {
+    color: hsl(332, 51%, 32%);
+    font-size: 24px;
+}
+
+.box {
+    background-color: hsl(330, 100%, 98%);
+    margin: 30px;
+    padding: 10px;
+
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+ol li::marker {
+    color: hsl(14, 45%, 36%);
+    font-weight: 400;
+
+}
+
+li {
+    font-size: 24px;
+}
+
+.hr {
+    width: 100%;
+    grid-column: 1 / 3;
+}
+
+.nutrition {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(7, auto);
+    width: 80%;
+    margin: auto;
+    font-size: 24px;
+}
+
+.value {
+    color: hsl(14, 45%, 36%);
+}
+
+span {
+    color: hsl(14, 45%, 36%);
+}
+
+
+.text {
+    color: hsl(24, 5%, 18%);
+    font-size: 24px;
+}
+
+p {
+    font-size: 24px;
+}

@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+  
+}
+body {
+    
+    
+    
+}
+
+main {
+    font-size: 20px;
+    margin: 10em;
+    padding: 50px;
+}
+
+.anchor{
+    transition-duration: 1s;
+        color: rgb(49, 21, 206);
+        background-color: rgb(200, 128, 73);
+        padding: 5PX;
+        text-decoration: none;
+        /* scale: 1; */
+    }
+    
+.anchor:hover {
+    background-color: rgb(22, 22, 126);
+    border-radius: 70% 30% 70% 30%;
+    box-shadow: 0 2px 40px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.512);
+    scale: 1.5;
+    color: rgb(102, 236, 98);
+}
+
+.img {
+ width: 99vw;
+}
+
